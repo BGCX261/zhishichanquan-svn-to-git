@@ -1,0 +1,11 @@
+/* CSS Document */
+body {
+	background-color: #f2f8ff;font-size:12px;
+}
+.left{ width:192px;height:100%;}
+.lf_tit{ background:url(../images/lf_tit.jpg); width:192px;height:30px !important; height:38px; padding-left:50px; padding-top:8px; font-size:14px; color:#FFFFFF; font-weight:bolder; }
+ul{ list-style:none; margin:0px; padding:0px; background:url(../images/lf_bg.jpg) repeat-y;height:100%; }
+.left li{ height:38px; background:url(../images/lf_line.jpg) bottom left no-repeat; line-height:38px;}
+.left li a{ font-size:12px; color:#214263; text-decoration:none; padding-left:45px;}
+.left li a:hover{ font-size:12px; color:#ffffff; text-decoration:none; background:url(../images/lf_td2.jpg) no-repeat;height:38px;display:block;}
+.lf_bt{ position:absolute; bottom:0px; left:0px;}

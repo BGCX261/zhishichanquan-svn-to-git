@@ -1,0 +1,126 @@
+/* CSS Document */
+
+
+
+body {
+	background-color: #f2f8ff; font-size:12px; margin:0px; padding:0px;
+}
+
+.tablebutton{ background:#ffffff; border:0; padding:3px; text-align:left}
+.t1{ border-collapse:collapse; border:1px solid #CCD5DD;}
+.t1 td{ border-bottom:1px solid #CCD5DD;}
+.t3{ border-collapse:collapse; border:1px solid #CCD5DD;}
+.t3 td{ border:1px solid #CCD5DD; height:20px}
+.search_checkbox{ border:0px solid #999999; background-color:#FFFFFF; margin:0; padding:0}
+.tab_tit{ color:#1765B7; font-size:14px; font-weight:bolder;}
+.tab_ipt{ border:1px solid #879DAA}
+.bottom2{ background:url(../images/ipt.jpg) no-repeat; width:47px; height:22px; border:0; margin-right:8px;}
+.tit3{ font-size:14px;height:30px;}
+.subit_2{ background:url(../images/bottom.jpg) no-repeat; width:58px; height:27px; border:0; color:#FFFFFF}
+.ipt_esc{ border:1px solid #fff; background-color:#FFFFFF}
+
+.text_flzt{ color:#ff0000}
+.sel1{ width:160px;}
+.STYLE1 {color: #FF0000}
+.s6 a:link{ line-height:25px;height:25px; color:#333333}
+.s6 a:hover{ line-height:25px;height:25px; color:#333333}
+.listtit{ height:26px; text-align:center; background:url(../images/list_bg.jpg); line-height:26px; color:#FFFFFF; font-weight:bolder; border-right:1px solid #32a4ea;border-top:1px solid #32a4ea;line-height:26px; }
+.listd{ height:26px;text-align:center; border-bottom:1px solid #dddddd;}
+.listdrd{ height:26px;text-align:center; border-bottom:1px solid #dddddd; color:#195b98;}
+.listdrd a{ color:#195b98; text-decoration:none}
+.page { color:#555;}
+.page a{ color:#555; font-size:12px; text-decoration:none; font-family: "Î¢ÈíÑÅºÚ"}
+.sel{color:#195b98; font-weight:bolder;}
+.fieldbut a:link{ color:#333; text-decoration: none}
+.fieldbuttonnav{   width:62px; height:15px;color:#333; border:0px; background:none}
+.fieldbuttonnav2{ background:url(../images/fieldbuttonnav.gif) no-repeat; width:70px; height:24px;color:#333; border:0px; }
+
+.bottom_sm a{ color:#214263; text-decoration:underline;}
+
+.STYLE5 {font-size: 12px}
+.STYLE4 {	color: #03515d;
+	font-size: 12px;
+}
+.STYLE6 {
+	color: #195b98;
+	font-weight: bold;
+}
+
+.listtit1{ height:26px; text-align:left; background:url(../images/list_bg.jpg); line-height:26px; color:#FFFFFF; font-weight:bolder; border-right:1px solid #32a4ea;border-top:1px solid #32a4ea;}
+
+.listtit2{ height:32px; text-align: left; background:url(../images/list_bg2.jpg); color:#FFFFFF; font-weight:bolder; border-right:1px solid #32a4ea;border-top:1px solid #32a4ea; padding-left:20px; }
+
+.t2{ height:30px; text-align: left; background:url(../images/sys_bg2.gif); line-height:30px; color:#000; border-right:1px solid #CCD5DD;border-left:1px solid #CCD5DD;line-height:30px; padding-left:20px; }
+
+
+.ipt{ width:260px; height:22px;}
+.tdwz{ height:46px; font-size:14px; line-height:46px;}
+.tdbm a{ font-size:12px; text-decoration:none; color:#FFFFFF;}
+
+.ipt1{ width:75px; height:31px; background:url(../images/cx.jpg); font-size:14px; color:#FFFFFF; border:0px;}
+.ipt2{ width:75px; height:31px; background:url(../images/ipbg.gif); font-size:14px; border:0px;}
+
+
+.systit{ font-size:12px;  color:#333;}
+
+.box{position:relative; height:400px;}
+.sysnav{ width:128px; height:323px; background:url(../images/gnnav.jpg) ;  float:left;}
+.sysnav ul{list-style:none; margin:0px; padding:0px;}
+
+.sysnav LI A {
+	TEXT-INDENT: -10000px; DISPLAY: block; HEIGHT: 40px;
+}
+.sysnav LI.jwd A {
+	POSITION: absolute;WIDTH: 128px; top:40px;
+}
+.sysnav LI.rfg A {
+	POSITION: absolute;WIDTH: 128px; top:105px;
+}
+.sysnav LI.xhfb A {
+	POSITION: absolute;WIDTH: 128px; top:170px;
+}
+.sysnav LI.tpcx A {
+	POSITION: absolute;WIDTH: 128px; top:240px;
+}
+.sysnav LI A:hover {
+	BACKGROUND: url(../images/gnnav_2.jpg) no-repeat;BACKGROUND-POSITION: 0px -1px;
+}
+.sysnav LI.jwd A:hover {
+	POSITION: absolute;  height: 60px; BACKGROUND-POSITION: 0px -41px;
+}
+.sysnav LI.jwd A.current {
+	POSITION: absolute;  height: 60px; BACKGROUND-POSITION: 0px -41px;
+}
+
+.sysnav LI.rfg A:hover {
+	POSITION: absolute;  height: 60px; BACKGROUND-POSITION: 0px -102px;
+}
+.sysnav LI.rfg A.current {
+	POSITION: absolute;  height: 60px; BACKGROUND-POSITION: 0px -102px;
+}
+
+.sysnav LI.xhfb A:hover {
+	POSITION: absolute;  height: 60px; BACKGROUND-POSITION: 0px -168px;
+}
+.sysnav LI.xhfb A.current {
+	POSITION: absolute;  height: 60px; BACKGROUND-POSITION: 0px -168px;
+}
+
+.sysnav LI.tpcx A:hover {
+	POSITION: absolute;  height: 60px; BACKGROUND-POSITION: 0px -240px;
+}
+.sysnav LI.tpcx A.current {
+	POSITION: absolute;  height: 60px; BACKGROUND-POSITION: 0px -240px;
+}
+
+.tab1,.tab2,.tab3,.tab4{ margin-left:10px; margin-top:10px; float:left; }
+.tab2,.tab3,.tab4{ display: none}
+
+
+
+.layertit{ height:32px; text-align:left; background:url(../images/layer.png); line-height:32px; color:#FFFFFF;}
+.tit{ font-size:14px; font-weight:bolder; padding-left:20px;}
+.listd{ height:26px;text-align:left;}
+p{ padding-left:20px; padding-top:10px;padding-bottom:10px; line-height:260%;}
+.layri a{ font-size:12px; color:#FFFFFF; text-decoration:none;}
+.layri a:hover{ font-size:12px; color:#FFcc00; text-decoration:none;}

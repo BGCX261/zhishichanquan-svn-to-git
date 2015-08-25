@@ -1,0 +1,25 @@
+/* CSS Document */
+
+body {
+	background-color: #f2f8ff; margin:0px; padding:0px;
+}
+
+.top{ height:93px; background:url(../images/top_02.jpg) repeat-x; width:100%; position:relative;}
+
+.top_nav{ position:absolute; bottom:0px; left:570px;}
+.top_nav ul{ list-style:none; padding:0; margin:0}
+
+.top_nav li { float:left; text-align:center;height:34px; margin-right:2px;}
+.top_nav LI A {DISPLAY: block; FLOAT: left; HEIGHT: 34px; line-height:34px; color:#FFFFFF; font-size:14px; font-weight:bolder;text-decoration:none}
+
+.top_nav li.index_nav a{background:url(../images/nav1.png);width:73px; height:34px;}
+.top_nav li.act_regulate a{ background:url(../images/nav2.png);width:114px; }
+.top_nav li.zxyh a{ background:url(../images/nav3.png);width:162px;}
+.top_nav li.cpcx a{ background:url(../images/nav4.png); width:82px;}
+
+.top_nav li.index_nav a:hover{background:url(../images/nav1_hover.png);width:73px; height:34px; color:#1765B7}
+.top_nav li.act_regulate a:hover{ background:url(../images/nav2_hover.png);width:114px; color:#1765B7}
+.top_nav li.zxyh a:hover{ background:url(../images/nav3_hover.png);width:162px;color:#1765B7}
+.top_nav li.cpcx a:hover{ background:url(../images/nav4_hover.png); width:82px;color:#1765B7}
+
+.top_right{ position:absolute; right:20px; bottom:5px; color:#FFFFFF; font-size:12px; }

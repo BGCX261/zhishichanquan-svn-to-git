@@ -1,0 +1,77 @@
+/* CSS Document */
+
+body {
+	background-color: #f2f8ff; margin:0px; padding:0px;
+}
+.a01{color: #fff; line-height:35px;}
+
+.list_nav {
+	POSITION: absolute; top:18px; LEFT: 194px;
+}
+.list_nav ul {
+	 list-style:none; padding:0px; margin:0px;
+}
+.list_nav LI {
+	FLOAT: left;}
+.list_nav LI A {
+	TEXT-INDENT: -10000px; DISPLAY: block; FLOAT: left; HEIGHT: 40px
+}
+.list_nav LI.index_nav A {
+	POSITION: absolute;WIDTH: 170px; LEFT: 40px
+}
+.list_nav LI.act_regulate A {
+	POSITION: absolute; WIDTH: 170px;LEFT: 170px;
+}
+.list_nav LI.zxyh A {
+	POSITION: absolute; WIDTH: 170px; LEFT: 330px
+}
+
+.list_nav LI.cpcx A {
+	POSITION: absolute; WIDTH: 170px; LEFT: 450px
+}
+.list_nav LI.map A {
+	POSITION: absolute; WIDTH: 170px; LEFT: 530px
+}
+.list_nav LI.system A {
+	POSITION: absolute; WIDTH: 170px; LEFT: 660px
+}
+.list_nav LI A:hover {
+	BACKGROUND: url(images/nav_hover.png) no-repeat;BACKGROUND-POSITION: 0px -1px;
+}
+/*.list_nav LI A.current {
+	BACKGROUND: url(images/nav_hover.png) no-repeat;
+}
+*/
+.list_nav LI.act_regulate A:hover {
+	POSITION: absolute; MARGIN-TOP: -1px; WIDTH: 170px; BACKGROUND-POSITION: 0px -43px; MARGIN-LEFT: 13px; LEFT: 149px
+}
+.list_nav LI.act_regulate A.current {
+	POSITION: absolute; MARGIN-TOP: -1px; WIDTH: 170px; BACKGROUND-POSITION: 0px -43px; MARGIN-LEFT: 13px; LEFT: 149px
+}
+.list_nav LI.zxyh A:hover {
+	POSITION: absolute; MARGIN-TOP: -1px; WIDTH: 170px; BACKGROUND-POSITION: 0px -86px; MARGIN-LEFT: 10px; LEFT: 278px
+}
+.list_nav LI.zxyh A.current {
+	POSITION: absolute; MARGIN-TOP: -1px; WIDTH: 170px; BACKGROUND-POSITION: 0px -86px; MARGIN-LEFT: 10px; LEFT: 278px
+}
+
+.list_nav LI.cpcx A:hover {
+	POSITION: absolute; MARGIN-TOP: -1px; WIDTH: 170px; BACKGROUND-POSITION: 0px -129px; MARGIN-LEFT: 10px; LEFT: 393px
+}
+.list_nav LI.cpcx A.current {
+	POSITION: absolute; MARGIN-TOP: -1px; WIDTH: 170px; BACKGROUND-POSITION: 0px -129px; MARGIN-LEFT: 10px; LEFT: 393px
+}
+.list_nav LI.map A:hover {
+	POSITION: absolute; MARGIN-TOP: -1px; WIDTH: 170px; BACKGROUND-POSITION: 0px -172px; MARGIN-LEFT: 10px; LEFT: 523px
+}
+.list_nav LI.map A.current {
+	POSITION: absolute; MARGIN-TOP: -1px; WIDTH: 170px; BACKGROUND-POSITION: 0px -172px; MARGIN-LEFT: 10px; LEFT:523px
+}
+
+.list_nav LI.system A:hover {
+	POSITION: absolute; MARGIN-TOP: -1px; WIDTH: 170px; BACKGROUND-POSITION: 0px -215px; MARGIN-LEFT: 10px; LEFT:647px
+}
+.list_nav LI.system A.current {
+	POSITION: absolute; MARGIN-TOP: -1px; WIDTH: 170px; BACKGROUND-POSITION: 0px -215px; MARGIN-LEFT: 10px; LEFT:647px
+}
+.user{ color:#FFFFFF; font-size:12px;}

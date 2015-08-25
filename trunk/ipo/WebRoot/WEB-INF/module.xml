@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modules>
+   <module url="" state="1" name="日常管理">
+		<module name="系统首页" code="000" flow="" state="1" url="left.jsp"  >
+            <affair name="系统首页" code="00005" url="" state="1" />   
+        </module>
+		<module name="中国专利检索" code="100" flow="" state="1" url="zgjs/zgjs_biaoge.jsp"  >
+            <affair name="表格检索" code="10005" url="zgjs/zgjs_biaoge.jsp" state="1" />   
+            <affair name="逻辑检索" code="10015" url="zgjs/zgjs_luoji.jsp" state="1" />   
+            <affair name="IPC分类检索" code="10020" url="zgjs/zgjs_IPC.jsp" state="1" />   
+            <affair name="法律状态检索" code="10025" url="zgjs/zgjs_falv.jsp" state="1" />   
+            <affair name="我的收藏夹" code="10030" url="zgjs/zgjs_shoucangjia.jsp" state="1" />   
+           </module>
+		<module name="港澳台及外国专利检索" code="200" flow="" state="1" url="hyjs/hyjs_biaoge.jsp"  >
+            <affair name="表格检索" code="20005" url="hyjs/hyjs_biaoge.jsp" state="1" />
+            <affair name="逻辑检索" code="20010" url="hyjs/hyjs_luoji.jsp" state="1" />
+            <affair name="IPC分类检索" code="20015" url="hyjs/hyjs_IPC.jsp" state="1" />
+            <affair name="我的收藏夹" code="20020" url="hyjs/hyjs_shoucangjia.jsp" state="1" />
+        </module>  
+        <module url="" state="1" name="系统管理" code="700">
+        	<affair name="组织机构管理" code="70005" url="system/unit_list.jsp" state="1"  />
+            <affair name="用户管理" code="70010" url="system/user_list.jsp" state="1"  />                
+            <affair name="系统日志管理" code="70030" url="system/loginfo_list.jsp" state="1" />   
+            <affair name="个人密码管理" code="70035" url="system/pwd.jsp" state="1"  />
+    	</module>  
+</module>
+</modules>
